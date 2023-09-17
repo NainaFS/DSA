@@ -7,8 +7,6 @@ class Solution {
             sum_arr+=arr[i];
             if(sum_index==sum_arr){
                 count++;
-                sum_index=0;
-                sum_arr=0;
             }
         }
         return count;
